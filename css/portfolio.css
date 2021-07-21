@@ -49,7 +49,7 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #home p {
@@ -116,9 +116,9 @@ body {
 /* about */
 
 #about {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     margin-left: 15px;
     /* align-items: center; */
@@ -143,7 +143,7 @@ p {
 }
 
 #project {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
     margin-left: 15px;
